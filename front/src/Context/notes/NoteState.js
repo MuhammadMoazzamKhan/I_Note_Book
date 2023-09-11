@@ -4,7 +4,7 @@ import axios from 'axios';
 
 
 const NoteState = (props) => {
-  const host = "http://localhost:8000"
+  const host = "https://i-note-book-chi.vercel.app"
   const notesInitial = [];
 
   const getAllNotes = async () => {
