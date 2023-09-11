@@ -11,9 +11,7 @@ const port = 8000;
 
 //Midleware for parsing JSON
 app.use(cors({
-    origin:["https://i-note-book-chi.vercel.app"],
-    method:["POST","PUT","GET","DELETE"],
-    credentials:true
+    origin:["https://i-note-book-chi.vercel.app"]
 }));
 app.use(express.json());
 
