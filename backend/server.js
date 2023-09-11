@@ -10,9 +10,7 @@ const app = express();
 const port = 8000;
 
 //Midleware for parsing JSON
-app.use(cors({
-    origin:["https://i-note-book-chi.vercel.app"]
-}));
+app.use(cors());
 app.use(express.json());
 
 // Routes 
