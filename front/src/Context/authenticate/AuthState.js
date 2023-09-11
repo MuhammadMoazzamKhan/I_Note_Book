@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const AuthState = (props) => {
     const [success, setSuccess] = useState();
-    const host = "http://localhost:8000/api/auth"
+    const host = "https://i-note-book-chi.vercel.app/api/auth"
     const login = async (email, password) => {
         try {
             const response = await axios.post(`${host}/login`, { email, password })
