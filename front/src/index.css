@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0)) ,url("https://c1.wallpaperflare.com/path/1011/855/828/literature-book-page-clean-b9b0c81d81ea7d8b66b7582f30f1c65d.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgb(0, 0, 0) ;
+  font-family: 'PT Serif', serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
