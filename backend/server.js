@@ -13,7 +13,7 @@ const port = process.env.PORT || 8000;
 app.use(cors());
 app.use(express.json());
 
-app.use("/",(req,res)=>res.send(new Date().toString())
+app.use("/",(req,res)=>res.send(new Date().toString()))
 
 // Routes 
 app.use("/api/auth", require("./routes/auth"))
