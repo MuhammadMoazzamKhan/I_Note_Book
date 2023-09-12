@@ -7,7 +7,7 @@ console.log(process.env.SECRET_JWT_SECRET)
 
 
 const app = express();
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 //Midleware for parsing JSON
 app.use(cors());
